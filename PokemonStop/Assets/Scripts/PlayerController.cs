@@ -80,4 +80,9 @@ public class PlayerController : MonoBehaviour {
             rend.sprite = sprites[3];
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameManager.instance.GoToCapture();
+    }
 }

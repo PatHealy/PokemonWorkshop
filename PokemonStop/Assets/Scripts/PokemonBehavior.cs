@@ -13,9 +13,4 @@ public class PokemonBehavior : MonoBehaviour {
         gameObject.GetComponent<SpriteRenderer>().sprite = sprites[randomNum];
         spriteName = spriteNames[randomNum];
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
